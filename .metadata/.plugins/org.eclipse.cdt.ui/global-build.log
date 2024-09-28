@@ -1,0 +1,24 @@
+Info: Nothing to build for IntegerPointer
+Info: Nothing to build for IntegerPointer
+Info: Nothing to build for IntegerPointer
+11:22:17 **** Incremental Build of configuration Debug for project IntegerPointer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerPointer.o" "..\\src\\IntegerPointer.cpp" 
+g++ -o IntegerPointer.exe "src\\IntegerPointer.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:33:44 **** Incremental Build of configuration Debug for project IntegerPointer ****
+Info: Internal Builder is used for build
+g++ -o IntegerPointer.exe "src\\IntegerPointer.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:34:09 **** Incremental Build of configuration Debug for project IntegerPointer ****
+Info: Internal Builder is used for build
+g++ -o IntegerPointer.exe "src\\IntegerPointer.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:37:03 **** Incremental Build of configuration Debug for project IntegerPointer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerPointer.o" "..\\src\\IntegerPointer.cpp" 
+g++ -o IntegerPointer.exe "src\\IntegerPointer.o" 
+Info: Nothing to build for IntegerPointer
